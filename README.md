@@ -1,3 +1,8 @@
 # Photometry
 
-[![Build Status](https://travis-ci.org/kbarbary/Photometry.jl.png)](https://travis-ci.org/kbarbary/Photometry.jl)
+Astronomical photometry library for Julia
+
+```julia
+aper = CircAperture(10., 10., 5.)
+flux, fluxerr = aperflux(aper, im)
+```
