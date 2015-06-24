@@ -1,8 +1,7 @@
 # Photometry
 
-Astronomical photometry library for Julia
+Aperture photometry library for Julia
 
 ```julia
-aper = CircAperture(10., 10., 5.)
-flux, fluxerr = aperflux(aper, im)
+flux = sum_circle(data, 5.0, 5.0, 3.0)
 ```
