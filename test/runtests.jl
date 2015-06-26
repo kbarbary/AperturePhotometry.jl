@@ -1,5 +1,5 @@
 using Base.Test
-using Photometry
+using AperturePhotometry
 
 data = ones(10, 10)
 
